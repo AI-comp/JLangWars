@@ -1,0 +1,9 @@
+language: java
+
+# Notify development list when needed
+notifications:
+ recipients:
+   - ai-comp@googlegroups.com
+ email:
+   on_success: change
+   on_failure: always

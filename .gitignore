@@ -1,6 +1,18 @@
+# Maven
 target/
 pom.xml.tag
 pom.xml.releaseBackup
-pom.xml.versionsBackup
 pom.xml.next
 release.properties
+
+# Eclipse
+.settings
+.classpath
+.project
+
+# Xtend
+src/test/xtend-gen
+src/main/xtend-gen
+
+# Log
+log.txt
