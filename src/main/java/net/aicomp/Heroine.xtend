@@ -28,11 +28,9 @@ class Heroine {
 	}
 
 	def void date(int playerIndex, boolean isWeekday) {
+		_realLove.increment(playerIndex, 1)
 		if (isWeekday) {
-			_realLove.increment(playerIndex, 1)
 			_revealedLove.increment(playerIndex, 1)
-		} else {
-			_realLove.increment(playerIndex, 2)
 		}
 		_dated = true
 	}
