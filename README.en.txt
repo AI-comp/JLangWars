@@ -12,21 +12,21 @@ Lang Wars requires JDK 1.6 or higher.
 Open the directory of this package using the console and execute Lang Wars as follows, then default AI programs will battle each other.
 The battle log is shown on the console and generated as '''log.txt''' file in the directory of this package.
 
-    java -jar LangWars.jar
+    java -jar JLangWars.jar
 
 To execute your AI program, please specify the execution command of your AI program with '''-a''' option.
 You can also specify the working directory with '''-w''' option.
 The following example uses one AI program and three default AI programs.
 
-    java -jar LangWars.jar -a "java SampleAI" -w "./SampleAI/Java"
+    java -jar JLangWars.jar -a "java SampleAI" -w "./SampleAI/Java"
 
 You can specify up to four AI programs and working directories as follows.
 
-    java -jar LangWars.jar -a "java SampleAI" -w "./SampleAI/Java" -a "python SampleAI.py" -w "./SampleAI/Python2"
+    java -jar JLangWars.jar -a "java SampleAI" -w "./SampleAI/Java" -a "python SampleAI.py" -w "./SampleAI/Python2"
 
 You can see the help with the following command.
 
-    java -jar LangWars.jar -h
+    java -jar JLangWars.jar -h
 	
 -----------------------------
 Sample Program

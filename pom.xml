@@ -121,7 +121,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>jp.ac.waseda.cs.washi.game.starter.MainStarter</mainClass>
+							<mainClass>net.aicomp.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

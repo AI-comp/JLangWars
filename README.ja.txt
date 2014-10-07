@@ -13,20 +13,20 @@ Lang Wars スターターパッケージ
 スターターパッケージのディレクトリでコンソールを開き、以下のコマンドでLang Warsを実行すると、デフォルトAIプログラム同士の対戦が行われます。
 対戦のログはコンソールに出力されるほか、スターターパッケージディレクトリ下の'''log.txt'''にも出力されます。
 
-    java -jar LangWars.jar
+    java -jar JLangWars.jar
 
 自分のAIを対戦させるには、以下のように'''-a'''オプションでAIプログラムの実行コマンドを指定します。'''-w'''オプションでワーキングディレクトリを指定できます。
 対戦相手にはデフォルトAIが使用されます。
 
-    java -jar LangWars.jar -a "java SampleAI" -w "./SampleAI/Java"
+    java -jar JLangWars.jar -a "java SampleAI" -w "./SampleAI/Java"
 
 AIプログラムおよびワーキングディレクトリはそれぞれ4つまで指定できます。
 
-    java -jar LangWars.jar -a "java SampleAI" -w "./SampleAI/Java" -a "python SampleAI.py" -w "./SampleAI/Python2"
+    java -jar JLangWars.jar -a "java SampleAI" -w "./SampleAI/Java" -a "python SampleAI.py" -w "./SampleAI/Python2"
 
 その他のオプションについては以下のコマンドで表示されるヘルプをご参照ください。
 
-    java -jar LangWars.jar -h
+    java -jar JLangWars.jar -h
 	
 -----------------------------
 サンプルプログラム
