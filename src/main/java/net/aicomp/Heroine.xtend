@@ -20,7 +20,7 @@ class Heroine {
 		_numPlayers = numPlayers
 		_revealedLove = Lists.newArrayList()
 		_realLove = Lists.newArrayList()
-		(1 .. numPlayers).forEach [ _ |
+		(1 .. numPlayers).forEach [
 			_revealedLove.add(0)
 			_realLove.add(0)
 		]

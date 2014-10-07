@@ -26,7 +26,7 @@ public class MersenneTwister {
 	/**
 	 * 配列seedArrayでRandomIntGeneratorのインスタンスを作る
 	 * 
-	 * @param seed
+	 * @param seedArray
 	 *            シード配列
 	 */
 	public MersenneTwister(int[] seedArray) {
