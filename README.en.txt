@@ -34,7 +34,7 @@ Sample Program
 
 '''SampleAI''' directory contains sample AI programs.
 The following site shows how to communicate with Lang Wars in detail.
-https://github.com/AI-comp/JavaChallenge2014/blob/master/Rule.ja.md
+https://github.com/AI-comp/JavaChallenge2014/blob/master/Rule.en.md
 
 Note that '''compile.sh''' and '''run.sh''' in '''SampleAI''' directory are scripts which are required to submit AI programs to the online execution server.
 Please see the help in the online execution server.
@@ -44,7 +44,7 @@ Web Sites
 -----------------------------
 
 Game Rule
-https://github.com/AI-comp/JavaChallenge2014/blob/master/Rule.ja.md
+https://github.com/AI-comp/JavaChallenge2014/blob/master/Rule.en.md
 
 Official Web Site
 http://www.ai-comp.net/javachallenge2014/
