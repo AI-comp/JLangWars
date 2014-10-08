@@ -36,7 +36,7 @@ Sample Program
 The following site describes the input-output format of the communication between AI program and Lang Wars in detail.
 https://github.com/AI-comp/JavaChallenge2014/blob/master/Rule.en.md
 
-Note that '''compile.sh''' and '''run.sh''' in '''SampleAI''' directory are scripts which are required  when submitting AI programs to the online execution server.
+Note that '''compile.sh''' and '''run.sh''' in '''SampleAI''' directory are scripts which are required when submitting AI programs to the online execution server.
 Please see the help in the online execution server.
 
 -----------------------------
