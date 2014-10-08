@@ -135,7 +135,7 @@ class Game {
 		lines.add(_heroines.map[it.realLove.get(playerIndex)].join(' '))
 
 		if (isWeekday) {
-			lines.add(_heroines.map[it.getDatedBit()].join(' '))
+			lines.add(_heroines.map[it.getDatedTimes()].join(' '))
 		}
 
 		lines.join('\n') + '\n'
@@ -151,7 +151,7 @@ class Game {
 
 		if (isWeekday) {
 			lines.add('Dated:')
-			lines.add(_heroines.map[it.getDatedBit()].join(' '))
+			lines.add(_heroines.map[it.getDatedTimes()].join(' '))
 		}
 
 		lines.add('Ranking:')

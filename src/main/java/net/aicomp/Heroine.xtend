@@ -13,7 +13,7 @@ class Heroine {
 	val List<Integer> _revealedLove
 	val List<Integer> _realLove
 
-	var boolean _dated
+	var int _datedTimes
 
 	new(int enthusiasm, int numPlayers) {
 		_enthusiasm = enthusiasm
@@ -24,7 +24,7 @@ class Heroine {
 			_revealedLove.add(0)
 			_realLove.add(0)
 		]
-		_dated = false
+		_datedTimes = 0
 	}
 
 	def void date(int playerIndex, boolean isWeekday) {
@@ -32,7 +32,7 @@ class Heroine {
 		if (isWeekday) {
 			_revealedLove.increment(playerIndex, 1)
 		}
-		_dated = true
+		_datedTimes = _datedTimes + 1
 	}
 
 	def filterPlayersByLove(List<Player> players, Function<List<Integer>, Integer> func, boolean real) {
@@ -48,7 +48,7 @@ class Heroine {
 	}
 
 	def refresh() {
-		_dated = false
+		_datedTimes = 0
 	}
 
 	def getRevealedLove() {
@@ -59,8 +59,8 @@ class Heroine {
 		_realLove
 	}
 
-	def getDatedBit() {
-		if(_dated) 1 else 0
+	def getDatedTimes() {
+		_datedTimes
 	}
 
 	def getEnthusiasm() {
